@@ -26,6 +26,7 @@ se necesita crea las migraciones, controladores, modelos y vistas necesarias
 
 
 `<SPATIE>` : <https://spatie.be/docs/laravel-permission/v5/introduction>
+	
 `<Laravel Breeze>` : https://laravel.com/docs/10.x/starter-kits>
 
 
@@ -44,6 +45,9 @@ se necesita crea las migraciones, controladores, modelos y vistas necesarias
 7. `php artisan migrate`
 
 1. `php artisan db:seed --class=UserSeeder`
+
+8. `php artisan key:generate`
+
 
 ###Credenciales predeterminadas
 
