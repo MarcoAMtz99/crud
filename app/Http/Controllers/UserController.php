@@ -47,10 +47,17 @@ class UserController extends Controller
 
     public function edit($id){
         $user = User::find($id);
+        if($user == null){
+         return redirect('/dashboard')->with('message','Usuario invalido.');
+        }
         return view('users.edit',["user"=>$user]);
     }
 
     public function update(Request $request, $id){
+
+        if($id == null || !(is_int($id))){
+            return redirect('/dashboard')->with('message','Usuario invalido.');
+        }
 
         $request->validate([
             'name' => ['required', 'string', 'max:255'],
@@ -85,6 +92,7 @@ class UserController extends Controller
 
       public function createRole(Request $request, $id){
 
+       
         $user = User::find($id);
         $roles = Role::all();
 
