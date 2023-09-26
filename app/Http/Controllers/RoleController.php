@@ -41,7 +41,7 @@ class RoleController extends Controller
     public function edit($id){
     
         $role = Role::find($id);
-        f($role == null){
+        if($role == null){
          return redirect('/dashboard')->with('message','Rol invalido.');
         }
         return view('roles.edit',["role"=>$role]);
