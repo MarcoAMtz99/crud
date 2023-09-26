@@ -13,10 +13,21 @@ class UserTest extends TestCase
      *
      * @return void
      */
-    public function test_example()
+    public function test_get_users_list()
     {
-        $response = $this->get('/');
+        $response = $this->get('/dashboard');
 
         $response->assertStatus(200);
+
+        $response->assertJsonStructure([
+            ['name', 'email']
+        ]);
+
+        $response->assertJsonFragment([
+            ['name',=> "Admin"]
+        ]);
+        $response->assertJsonCount(1);
+
+
     }
 }

@@ -66,5 +66,4 @@ yo propondria las siguientes mejoras:
 
 - Agregar unas columnas [trashed,active] a la tabla roles y usuarios para mantener la integridad de la base de datos y no eliminar registros o activar solos softdeletes de laravel.
 - Uso de validaciones en la parte del front, ya que ahora mismo las validaciones quedaron en los controladores con el validate.
-- Configurar modo nocturno 
 - Hacer responsive el template
