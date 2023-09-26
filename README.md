@@ -34,6 +34,9 @@ se necesita crea las migraciones, controladores, modelos y vistas necesarias
 `<PHP> 8.0.28 `
 `<NODE> v16.15.1`
 
+###Archivo .ENV
+`puedes tomar de base el .env.example solo cambia el nombre de tu base de datos`
+
 ###Comandos para instalar el proyecto
 
 1. `git clone https://github.com/MarcoAMtz99/crud.git`
