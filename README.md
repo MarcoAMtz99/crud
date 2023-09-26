@@ -26,7 +26,7 @@ se necesita crea las migraciones, controladores, modelos y vistas necesarias
 
 
 `<SPATIE>` : <https://spatie.be/docs/laravel-permission/v5/introduction>
-	
+
 `<Laravel Breeze>` : https://laravel.com/docs/10.x/starter-kits>
 
 
@@ -64,7 +64,7 @@ se necesita crea las migraciones, controladores, modelos y vistas necesarias
 
 > SPATIE considero seria una buena opcion para este equerimiento de roles,  para un futuro es escalable con permisos e incluso grupos.
 
-### Mejorar a futuro
+### Mejoras a futuro
 
 yo propondria las siguientes mejoras:
 
