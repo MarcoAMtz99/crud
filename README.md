@@ -51,6 +51,10 @@ se necesita crea las migraciones, controladores, modelos y vistas necesarias
 
 8. `php artisan key:generate`
 
+8. `php artisan serve`
+
+8. `npm run dev || npm run build`
+
 
 ###Credenciales predeterminadas
 
